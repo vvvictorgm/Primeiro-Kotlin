@@ -12,5 +12,5 @@ fun main() {
 
     val frase = "Kotlin é uma linguagem"
   val caracteristica = "show!"
-    println(frase + caracteristica )
+    println("Kotlin é uma linguagem $caracteristica ")
 }
