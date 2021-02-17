@@ -11,5 +11,6 @@ fun main() {
 */
 
     val frase = "Kotlin é uma linguagem"
-    println(frase);
+  val caracteristica = "show!"
+    println(frase + caracteristica )
 }
