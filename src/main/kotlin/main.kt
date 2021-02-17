@@ -4,6 +4,12 @@ fun calculaBonus(a: Int, b: Int, c: Int){
 
 
 }
+
+fun hello(nome: String) : String{
+
+    return "Olá, ${nome}"
+
+}
 fun main() {
     /*println("olá mundo!")
 
@@ -38,5 +44,7 @@ val testeDeQuebraDeLinh = """sadasaosjoasdjoajdpasjda
     val c = 30;
 
     calculaBonus(a,b,c)
+
+    println(hello("Victor"))
 
 }
