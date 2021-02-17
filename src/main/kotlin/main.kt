@@ -39,7 +39,6 @@ val testeDeQuebraDeLinh = """sadasaosjoasdjoajdpasjda
 """.trimMargin()
     println(testeDeQuebraDeLinh.length)
 
-     */
 
     val a =10;
     val b =20;
@@ -50,4 +49,6 @@ val testeDeQuebraDeLinh = """sadasaosjoasdjoajdpasjda
     println(hello("Victor"))
     println(soma(a,b))
 
+     */
+    //
 }
