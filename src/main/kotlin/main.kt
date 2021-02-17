@@ -10,6 +10,7 @@ fun hello(nome: String) : String{
     return "Olá, ${nome}"
 
 }
+fun hello2(nome: String) ="Olá, ${nome}"
 fun main() {
     /*println("olá mundo!")
 
