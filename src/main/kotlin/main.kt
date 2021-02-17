@@ -9,12 +9,12 @@ fun main() {
     val imutavel = 100; //val é uma variavel imutavel, equivalente a const em javascript
     val x: Int; // ou seja, pode ser atribuina se eu declarar o tipo explicidamente, ao contrario de uma const em javascript.
 
+     */
 
     val frase = "Kotlin é uma linguagem"
   val caracteristica = "show!"
-    println("Kotlin é uma linguagem $caracteristica ")
+    println("Kotlin é uma linguagem ${caracteristica.length} ")
 
-     */
 val testeDeQuebraDeLinh = """sadasaosjoasdjoajdpasjda
     |sdkasjdkasjdkasjdkasjdskajdaskdjakjda
     |sadkasjdkajsdkaskdjskajdkasjdaksjdskad
@@ -23,5 +23,5 @@ val testeDeQuebraDeLinh = """sadasaosjoasdjoajdpasjda
     |
     |asjdjaskdjaskdjakjdk"
 """.trimMargin()
-    println(testeDeQuebraDeLinh)
+    println(testeDeQuebraDeLinh.length)
 }
