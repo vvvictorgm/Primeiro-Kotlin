@@ -11,6 +11,7 @@ fun hello(nome: String) : String{
 
 }
 fun hello2(nome: String) ="Olá, ${nome}"
+fun soma(a: Int, b: Int) = a+b
 fun main() {
     /*println("olá mundo!")
 
@@ -47,5 +48,6 @@ val testeDeQuebraDeLinh = """sadasaosjoasdjoajdpasjda
     calculaBonus(a,b,c)
 
     println(hello("Victor"))
+    println(soma(a,b))
 
 }
